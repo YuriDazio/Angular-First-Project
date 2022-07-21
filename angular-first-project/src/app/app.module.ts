@@ -4,15 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
+import {AppListaApiComponent} from './components/app-lista-api/app-lista-api.component';
 import { MarcatextoDirective } from './Shared/directives/marcatexto.directive';
 
 import { PeopleService } from './Shared/Services/people.service';
-import { ListPeopleComponent } from './shared/components/list-people/list-people.component';
+import { ListPeopleComponent } from './Shared/components/list-people/list-people.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
+    AppListaApiComponent,
     MarcatextoDirective,
     ListPeopleComponent
   ],
